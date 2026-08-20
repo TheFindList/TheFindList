@@ -27,7 +27,7 @@ function renderProducts(filter = 'All', expanded = false) {
 renderProducts();
 
 collectionGrid.innerHTML = content.collections.map(item => `
-  <a class="collection-card ${item.color}" href="#trending"><span class="collection-number">${item.number}</span><div><p>THE FIND LIST</p><h3>${item.title}</h3><span>${item.subtitle}</span></div><b>Explore the list →</b></a>`).join('');
+  <a class="collection-card ${item.color}" href="collections/${item.slug}.html"><span class="collection-number">${item.number}</span><div><p>THE FIND LIST</p><h3>${item.title}</h3><span>${item.subtitle}</span></div><b>Read the story →</b></a>`).join('');
 articleGrid.innerHTML = content.articles.map(item => `
   <article class="article-card"><a class="article-image ${item.color}" href="#journal"><span>${item.tag}</span></a><p class="article-meta">${item.tag} · ${item.read}</p><h3><a href="#journal">${item.title}</a></h3><a class="text-link" href="#journal">Read story <span>→</span></a></article>`).join('');
 

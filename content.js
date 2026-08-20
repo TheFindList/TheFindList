@@ -46,9 +46,9 @@ window.siteContent = {
     { title: "Govee RGBIC LED Strip Lights", category: "Tech & Gadgets", price: "Room upgrade", badge: "VIRAL TECH", color: "olive", symbol: "✦", link: "https://amzn.to/4ikwYtG" }
   ],
   collections: [
-    { title: "The Cozy Apartment List", subtitle: "Warm up your space without a full makeover", number: "01", color: "warm" },
-    { title: "Dorm Room, Upgraded", subtitle: "Small-space essentials that earn their keep", number: "02", color: "cool" },
-    { title: "Actually Useful Viral Finds", subtitle: "The internet made us try them", number: "03", color: "green" }
+    { title: "The Cozy Apartment List", subtitle: "Warm up your space without a full makeover", number: "01", color: "warm", slug: "cozy-apartment" },
+    { title: "Dorm Room, Upgraded", subtitle: "Small-space essentials that earn their keep", number: "02", color: "cool", slug: "dorm-room-upgraded" },
+    { title: "Actually Useful Viral Finds", subtitle: "The internet made us try them", number: "03", color: "green", slug: "actually-useful-viral-finds" }
   ],
   articles: [
     { title: "10 easy ways to make your apartment feel instantly cozier", tag: "HOME", read: "6 min read", color: "terracotta" },

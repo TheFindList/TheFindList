@@ -10,6 +10,8 @@ Open `index.html` to change page copy, navigation links, disclosures, contact de
 
 Run `node generate-blog.js` after changing product names or product links to rebuild the 30 product guides and blog index.
 
+Run `node generate-collections.js` after changing collection story content to rebuild the three curated collection pages.
+
 Open `styles.css` to adjust colors and styling.
 
 ## Preview
