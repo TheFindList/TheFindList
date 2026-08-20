@@ -14,6 +14,8 @@ Run `node generate-collections.js` after changing collection story content to re
 
 Open `styles.css` to adjust colors and styling.
 
+Before activating AdSense, replace the placeholder in `ads.txt` with the exact authorized-seller record provided by Google and add the AdSense verification script to every page.
+
 ## Preview
 
 Open `index.html` in a browser or serve this folder with any static web server.
